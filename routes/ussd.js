@@ -8,7 +8,7 @@ router.get('/', (req, res) => {
 
 router.post('*', (req, res) => {
 
-    console.log(req.body);
+    res.send('END Thank you for reaching my service');
 });
 
 module.exports = router;
